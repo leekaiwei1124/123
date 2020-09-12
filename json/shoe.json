@@ -50,10 +50,10 @@
     },
     {
       "sys": {
-        "id": "BLUE WHITE SHOE"
+        "id": "s4"
       },
       "fields": {
-        "title": "SHORT JEANS",
+        "title": "Blue Shoe",
         "price": 229.99,
         "image": {
           "fields": {

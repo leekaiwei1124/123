@@ -4,7 +4,6 @@ const app = (() => {
     let swRegistration = null;
   
     const WeatherButton = document.querySelector('.js-notify-btn');
-    const pushButton = document.querySelector('.js-push-btn');
     
     function displayNotification() {
   
@@ -32,24 +31,5 @@ const app = (() => {
     WeatherButton.addEventListener('click', () => {
       displayNotification();
     });
-  
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        console.log('Service Worker and Push is supported');
-  
-        navigator.serviceWorker.register('sw.js')
-        .then(swReg => {
-          console.log('Service Worker is registered', swReg);
-  
-          swRegistration = swReg;
-        })
-        .catch(err => {
-          console.error('Service Worker Error', err);
-        });
-      });
-    } else {
-      console.warn('Push messaging is not supported');
-      pushButton.textContent = 'Push Not Supported';
-    }
   
   })();
