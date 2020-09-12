@@ -1,0 +1,26 @@
+@font-face {
+	font-family: Montserrat-SemiBold;
+	src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+.chart-container {
+	min-height: 800px;
+}
+
+.normal-text {
+	display: block;
+	font-family: Montserrat-Medium;
+	font-size: 18px;
+	color: #555555;
+	line-height: 1.2;
+	margin-bottom: 20px;
+}
+
+.hidden {
+	display: none;
+}

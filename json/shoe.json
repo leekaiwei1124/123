@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "s1"
+      },
+      "fields": {
+        "title": "BROWN SHOE",
+        "price": 289.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/1crop.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "s2"
+      },
+      "fields": {
+        "title": "WHITE SHOES",
+        "price": 289.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/2crop.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "s3"
+      },
+      "fields": {
+        "title": "ORANGE STRIPED SHOE",
+        "price": 259.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/3crop.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "BLUE WHITE SHOE"
+      },
+      "fields": {
+        "title": "SHORT JEANS",
+        "price": 229.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/4crop.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "s5"
+      },
+      "fields": {
+        "title": "PINK SHOE",
+        "price": 239.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/5crop.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "s6"
+      },
+      "fields": {
+        "title": "BLACK SHOE",
+        "price": 249.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/shoe/6crop.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

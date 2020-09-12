@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "c1"
+      },
+      "fields": {
+        "title": "YELLOW SHIRT",
+        "price": 39.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "c2"
+      },
+      "fields": {
+        "title": "RED DRESS",
+        "price": 69.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/2.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "c3"
+      },
+      "fields": {
+        "title": "LONG DARK RED DRESS",
+        "price": 59.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/3.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "c4"
+      },
+      "fields": {
+        "title": "SHORT JEANS",
+        "price": 29.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/4.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "c5"
+      },
+      "fields": {
+        "title": "RED HOODIE",
+        "price": 39.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/5.png"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "c6"
+      },
+      "fields": {
+        "title": "BLACK SHIRT",
+        "price": 49.99,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "./img/cloth/6.jpg"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
