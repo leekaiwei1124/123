@@ -8,10 +8,10 @@ function buildtable(data) {
     table.innerHTML += `<tr>
         <td> ${data[i].title}</td>
         <td>${data[i].price}</td>
-        <td>${parseFloat(data[i].price * data[i].amount)}</td>
+        <td>${data[i].price * data[i].amount}</td>
         <td>  ${data[i].amount}</td>
     </tr>`;
-    price += parseFloat(data[i].price * data[i].amount);
+    price += data[i].price * data[i].amount;
   }
   table.innerHTML += `<tr>
         <td>SubTotal</td>
@@ -82,7 +82,7 @@ $(document).ready(function () {
       }
       $("#head").show();
       $("#foot").show();
-      pdf.save("Your_PDF_Name.pdf");
+      pdf.save("Order.pdf");
       sessionStorage.setItem("cart", "");
       location.reload();
     });

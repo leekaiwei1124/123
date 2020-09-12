@@ -24,13 +24,13 @@
   border-radius: 25px;
   background: #fad7a0;
   position: fixed;
-  bottom: 95px;
-  right: 35px;
+  bottom: 5.938rem;
+  right: 2.188rem;
 }
 .cart-btn {
   position: fixed;
-  bottom: 100px;
-  right: 50px;
+  bottom: 6.25rem;
+  right: 3.125rem;
   cursor: pointer;
 }
 .cart-items {
@@ -88,6 +88,11 @@
   padding: 1.5rem;
   transition: var(--mainTransition);
   transform: translateY(100%);
+}
+#weather {
+  position: fixed;
+  top: 5.938rem;
+  left: 2.188rem;
 }
 .showCart {
   transform: translateY(0);
@@ -214,7 +219,8 @@
   transition: var(--mainTransition);
 }
 .img-container:hover .product-img {
-  opacity: 0.5;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .product h3 {

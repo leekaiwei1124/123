@@ -46,6 +46,7 @@
     }
     window.addEventListener("load", addDarkmodeWidget);
   </script>
+  <script src="http://code.vostrel.cz/jquery.reel.js"></script>
 </head>
 
 <body>
@@ -71,12 +72,23 @@
         <li><a href="cloth.html">cloth</a></li>
         <li><a href="shoe.html">shoe</a></li>
         <li><a href="about_us.html">Contact</a></li>
+       
       </ul>
     </div>
   </header>
   <!-- Header section end -->
 
+  <!-- weather widget start -->
   <!-- Page Info -->
+  <script>
+    
+    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+  </script>
+  
+  <div id="weather"><a target="_blank" href="https://www.booked.net/weather/kampar-43016"><img
+      src="https://w.bookcdn.com/weather/picture/25_43016_1_1_ecf0f1_250_bdc3c7_9da2a6_ffffff_1_2071c9_ffffff_0_6.png?scode=2&domid=w209&anc_id=16046"
+      alt="booked.net" /></a></div>
+      
   <div class="page-info-section page-info-big">
     <div class="container">
       <h2>Shoe</h2>
@@ -101,17 +113,18 @@
       </div>
       <div class="image-buttons">
 
-        <input type="image" class="show-image-1" src="img/shoe/1cube.jpg" width="300" height="400"></input>
 
-        <input type="image" class="show-image-2" src="img/shoe/2crop.png" width="300" height="400"></input>
+        <input type="image" class="show-image-1" src="img/shoe/1cube.jpg" width="150" height="200"></input>
 
-        <input type="image" class="show-image-3" src="img/shoe/3crop.png" width="300" height="400"></input>
+        <input type="image" class="show-image-2" src="img/shoe/2crop.png" width="150" height="200"></input>
 
-        <input type="image" class="show-image-4" src="img/shoe/4crop.png" width="300" height="400"></input>
+        <input type="image" class="show-image-3" src="img/shoe/3crop.png" width="150" height="200"></input>
 
-        <input type="image" class="show-image-5" src="img/shoe/5crop.jpg" width="300" height="400"></input>
+        <input type="image" class="show-image-4" src="img/shoe/4crop.png" width="150" height="200"></input>
 
-        <input type="image" class="show-image-6" src="img/shoe/6crop.jpg" width="300" height="400"></input>
+        <input type="image" class="show-image-5" src="img/shoe/5crop.jpg" width="150" height="200"></input>
+
+        <input type="image" class="show-image-6" src="img/shoe/6crop.jpg" width="150" height="200"></input>
 
       </div>
     </div>
@@ -120,16 +133,15 @@
 
   <!-- cart bar -->
 
+  
   <section class="products">
     <div class="section-title">
       <h2>our products</h2>
     </div>
     <div class="products-center"></div>
-    <div>
-      <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-9JNs_2BV1c?controls=0"
+      <iframe width="560" height="315" style="position: relative;" src="https://www.youtube-nocookie.com/embed/-9JNs_2BV1c?controls=0?autoplay=1"
         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-    </div>
   </section>
   <!-- end of products -->
   <!-- cart -->
@@ -226,7 +238,23 @@
 
   <!-- Footer section -->
   <footer class="footer-section">
+    <p>Please visit our stall at:</p>
     <div class="container">
+      <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+        <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+        <script>(function () {
+            var setting = { "height": 250, "width": 400, "zoom": 17, "queryString": "Pasar Malam Taman Bandar Baru Kampar, Jalan Perak 9, Kampar, Perak, Malaysia", "place_id": "ChIJVVVVVRUdyzERlSWZ-U43VGY", "satellite": false, "centerCoord": [4.250936577738332, 101.12861695000001], "cid": "0x6654374ef9992595", "lang": "en", "cityUrl": "/malaysia/tanah-rata-32991", "cityAnchorText": "Map of Tanah Rata, Pahang, Malaysia", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "264725" };
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=264725';
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+          })();</script><a href="https://1map.com/map-embed">1 Map</a>
+      </div>
       <p class="copyright">
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         Copyright &copy;
