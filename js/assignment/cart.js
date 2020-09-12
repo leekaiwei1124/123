@@ -1,3 +1,4 @@
+//SECTION 1
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
 const clearCartBtn = document.querySelector(".clear-cart");
@@ -9,7 +10,7 @@ const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
 let cart = [];
 
-// products
+//SECTION 2
 class Products {
   async getProducts() {
     try {
@@ -46,7 +47,7 @@ class Products {
   }
 }
 
-// ui
+//SECTION 3
 class UI {
   displayProducts(products) {
     let result = "";
