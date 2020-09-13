@@ -48,6 +48,13 @@ h2 {
   transition: transform 1s cubic-bezier(0.32, 0.05, 0.35, 1.6);
 }
 
+#image-3d {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: var(--mainTransition);
+}
+
 .cube-face-image {
   display: block;
   position: absolute;
